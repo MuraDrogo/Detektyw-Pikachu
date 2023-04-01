@@ -1,0 +1,113 @@
+body{
+    background: url(https://wallpaper.dog/large/10852434.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    width: 1350px;
+    height: 110px;
+    background-color: rgba(127, 255, 212, 0.473);
+}
+.title-h1{
+    display: inline-block;
+    margin: 20px 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fcf80b;
+    text-shadow: 3px 3px 5px #ce29c6,4px 5px 3px #eb0f0f ;
+}
+
+.title-text{
+    display: inline-block;
+    margin: 20px 30px;
+}
+.title-p{
+    display: inline-block;
+    margin: 10px 265px;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #0004fa;
+    text-shadow: 3px 3px 5px #e9156d,4px 5px 3px #0febe0 ;
+}
+
+.main{
+    width: 1200px;
+    height: 700px;
+    background-color: rgba(250, 235, 215, 0.342);
+    backdrop-filter: blur(20px);
+    margin: 60px auto;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.main-img{
+    border: 1px dashed #fcf80b;
+    border-radius: 20px;
+    margin: 20px 60px;
+    float: left;/* щоб текст був біля фото */
+}
+.main-text{
+    display: block;
+    margin: 140px 0px ;
+}
+span{
+    color: #8df703;
+}
+.main-text:nth-child(1){
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    color: rgb(252, 214, 0);
+    text-shadow: 3px 3px 5px #cecb29,4px 5px 3px #eb0f0f ;
+}
+.main-text:nth-child(2){
+    color: aliceblue;
+}
+.main-text:nth-child(3){
+    color: rgb(248, 8, 8);
+    font-weight: 900 ;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px #8df703,4px 5px 2px #0f13eb ;
+}
+.cad{
+    margin: 40px 130px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(250, 235, 215, 0.342);
+    backdrop-filter: blur(20px);
+    display: inline-block;
+    margin: 20px 20px;
+    border-radius: 30px;
+
+}
+.card:hover .card-text{
+    color: #36be0d;
+    text-shadow: 3px 3px 3px #f70303,4px 5px 2px #0f13eb ;
+    letter-spacing: 5px;
+}
+.card:hover{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(189, 142, 14, 0.747);
+    backdrop-filter: blur(20px);
+}
+.card:hover:nth-child(2){
+    background-color: rgba(128, 255, 0, 0.589);
+}
+.card:hover:nth-child(2) .card-text{
+    color: #f70303;
+    letter-spacing: 0px;
+}
+.card-text {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(241, 250, 237);
+}
+.card-img {
+    margin: 30px 75px;
+    border-radius: 50%;
+    width: 150px;
+    height: 160px;
+}
